@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOYNEXTDOOR Fan Photo Booth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BOYNEXTDOOR Fan Photo Booth</h1>
+        <p>¡Tómate una foto con plantillas especiales y descárgala!</p>
+        
+        <video id="video" autoplay></video>
+        <canvas id="canvas" style="display: none;"></canvas>
+        <img id="photo" src="" alt="Tu foto" style="display: none;">
+        
+        <div class="controls">
+            <button id="capture">📸 Capturar</button>
+            <button id="download" style="display: none;">⬇️ Descargar</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
